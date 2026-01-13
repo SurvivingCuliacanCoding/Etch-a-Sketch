@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 480px;
+  height: 480px;
+  border: 2px solid black;
+}
+
+.square {
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  background-color: white;
+}
+.square:hover {
+  background-color: black;
+} 
+
+#resizeBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
